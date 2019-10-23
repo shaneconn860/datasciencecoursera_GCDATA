@@ -64,5 +64,7 @@ new_data2 <- data1 %>%
   summarise_all(funs(mean))
 write.table(new_data2, "new_data2.txt", row.name=FALSE)
 
+
+
 str(new_data2)
 View(new_data2)
